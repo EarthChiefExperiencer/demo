@@ -6,23 +6,23 @@ Please note that this is not a complete code; I have only demonstrated the main 
 
 ## Project Structure
 
-src
-└── main
-    └── java
-        └── com
-            └── example
-                └── demo
-                    ├── controller
-                    │   └── EventController.java
-                    ├── entity
-                    │   ├── Event.java
-                    │   └── EventProperties.java
-                    ├── repository
-                    │   ├── EventRepository.java
-                    │   └── EventPropertiesRepository.java
-                    ├── service
-                    │   └── EventService.java
-                    └── DemoApplication.java
+- src
+  - main
+    - java
+      - com
+        - example
+          - demo
+            - controller
+              - EventController.java
+            - entity
+              - Event.java
+              - EventProperties.java
+            - repository
+              - EventRepository.java
+              - EventPropertiesRepository.java
+            - service
+              - EventService.java
+            - DemoApplication.java
 
 - **Event:** Entity class representing an event.
 - **EventProperties:** Entity class representing a property associated with an event.
